@@ -9,4 +9,9 @@
  */
 int fact(int n) {
 	// TODO Code for calculating n! and returning it
+	int result = 1;
+	for (int idx = 1; idx <= n; idx++) {
+		result = result * idx;
+	}
+	return result;
 }
